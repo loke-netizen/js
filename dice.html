@@ -32,6 +32,9 @@
         .red{
             color: red;
         }
+        .rare{
+            color: linear-gradient(135deg, #ffd700, #ff7e5f, #8e44ad);
+        }
 
         button {
             font-size: 20px;
@@ -90,7 +93,7 @@
             else if(dice1===dice2&&dice2===dice3) {
                 h2.innerText = "🎉 Everyone wins!";
                 h2.style.margin="auto";
-                h2.className="red"
+                h2.className="rare"
             }
             else {
                 h2.innerText = "✨ Double champions!";
